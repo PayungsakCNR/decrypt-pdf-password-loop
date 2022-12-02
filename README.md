@@ -1,1 +1,1 @@
-for file in *.pdf; do qpdf --decrypt --password=22051997 $file decrypted_$file; done
+for file in *.pdf; do qpdf --decrypt --password=xxxxxx $file decrypted_$file; done
